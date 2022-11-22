@@ -138,7 +138,7 @@ export default function Registrar() {
               </Form>
             </ItensDiv>
           </FormDiv>
-          {lista && (
+          {lista.length > 0 && (
             <>
               <ViewDiv>
                 <Item>Nome</Item>
